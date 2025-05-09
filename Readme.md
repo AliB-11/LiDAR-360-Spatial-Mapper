@@ -29,9 +29,7 @@ An embedded 3D‐mapping system that uses the MSP-EXP432E401Y microcontroller an
 
 <br>
 
-Status indicators: (assigned)
-
-Status indicators:
+Status indicators (assigned):
 
 - Measurement status LED → PN0
 - UART‑TX activity LED → PN1
