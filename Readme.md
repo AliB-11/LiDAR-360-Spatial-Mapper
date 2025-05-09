@@ -1,7 +1,5 @@
 # Insight 360 LiDAR spatial mapper
 
-## Description
-
 An embedded 3D‐mapping system that uses the MSP-EXP432E401Y microcontroller and VL53L1X time‑of‑flight sensor mounted on a stepper motor to perform 360° scans in a vertical plane, capture fixed‑interval slices along the orthogonal axis, and stream the resulting point‑cloud data to a PC for real‑time reconstruction and visualization.
 
 <br><br>
@@ -27,14 +25,14 @@ An embedded 3D‐mapping system that uses the MSP-EXP432E401Y microcontroller an
 
 ## Specifications
 
-- MCU bus clock: 14 MHz (assigned)
-- Sensor & scan: VL53L1X ToF on stepper motor for 360° vertical‑plane (y‑z) distance mapping
-- Displacement slices: manual X‑axis steps (e.g. every 30 cm) to build full 3D point cloud
-- Start/stop control: two momentary push buttons (one for data, one for motor)
+- MCU bus clock: 14 MHz
+- Sensor & scan: VL53L1X ToF on stepper motor scanning every 11.25 degrees on vertical‑plane (y‑z) distance mapping
+- Displacement slices: manual X‑axis steps (30 cm) to build full 3D point cloud
+- Start/stop control: three momentary push buttons (one to start motor/data collection, one to stop motor/output data, and one to reset motor/rescan)
 
 <br>
 
-Status indicators:
+Status indicators: (assigned)
 
 - Measurement status LED → PN0
 - UART‑TX activity LED → PN1
