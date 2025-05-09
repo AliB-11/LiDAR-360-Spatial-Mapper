@@ -1,27 +1,24 @@
 # Insight 360 LiDAR spatial mapper
 
 An embedded 3D‐mapping system that uses the MSP-EXP432E401Y microcontroller and VL53L1X time‑of‑flight sensor mounted on a stepper motor to perform 360° scans in a vertical plane, capture fixed‑interval slices along the orthogonal axis, and stream the resulting point‑cloud data to a PC for real‑time reconstruction and visualization.
-
-<br><br>
+<br>
 
 ## 3D Scan
 
-[3D image1](../ToF360%20LiDAR%20Spatial%20Mapper/Images/scan_image1.png)
-<br>
-[3D Image2](/Images/scan_image2.png)
-<br>
+![scan_image2](https://github.com/user-attachments/assets/a06112d5-188a-404d-a04a-7a28f107874c)
+
+![scan_image1](https://github.com/user-attachments/assets/0effd7ee-4177-4258-998a-eabaf5aa280c)
 <br>
 
 ## Location
 
-[Location](/Images/hallwayImage.png)
-<br><br>
+![hallwayImage](https://github.com/user-attachments/assets/6fc73dfe-0496-4e4b-ad57-df842c389229)
+<br>
 
 ## Hardware setup
 
-[HardwareSetup](/Images/hardware_image.png)
-
-<br><br>
+![hardware_image](https://github.com/user-attachments/assets/be79a866-e69d-4742-b3ac-7111aed3f17b)
+<br>
 
 ## Specifications
 
@@ -34,11 +31,11 @@ An embedded 3D‐mapping system that uses the MSP-EXP432E401Y microcontroller an
 
 Status indicators: (assigned)
 
+Status indicators:
+
 - Measurement status LED → PN0
 - UART‑TX activity LED → PN1
 - Additional/troubleshoot LED → PF4
-
-<br>
 
 Comm protocols:
 
